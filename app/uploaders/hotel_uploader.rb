@@ -12,7 +12,7 @@ class HotelUploader < CarrierWave::Uploader::Base
   end
 
   version :thumb do
-    process :resize_to_fit => [200,200]
+    process :resize_to_fit => [400,400]
   end
 
     process :resize_to_fit => [800,800]
