@@ -16,3 +16,8 @@ gem 'carrierwave', '0.11.2'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'kaminari'
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
